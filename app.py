@@ -16,7 +16,7 @@ def load_data():
     return df
 
 df = load_data()
-
+st.dataframe(df)
 # --- 1. Status funnel ---
 st.subheader("Application Funnel")
 funnel_order = ["No Response Yet", "Application Confirmed", "Interview Request", "Offer", "Rejected"]
