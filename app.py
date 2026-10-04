@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-CSV_URL = "https://docs.google.com/spreadsheets/d/1i4Tin8BQkfmcZYGfY-hxHhMvilYgMg3k308--6EIRus/edit?gid=0#gid=0"
+CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-K2bPgkFpcavReVoXH-K4HQWy6QxN12o6jWB5ywewq32TEo0qG9JaZpJgCMkVOiNTZB5P0Rp3UnuL/pub?gid=0&single=true&output=csv"
 
 st.set_page_config(page_title="Job Search Auto-Tracker", layout="wide")
 st.title("Job Search Auto-Tracker")
